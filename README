@@ -1,0 +1,25 @@
+Semantic Editor Combinators
+===========================
+
+Template Haskell support for automatically creating semantic editor
+combinators from Algebraic Data Types
+(See: <http://conal.net/blog/posts/semantic-editor-combinators/>
+for Conal Elliott's blog post describing Semantic Editor Combinators,
+and <http://http://hackage.haskell.org/package/sec> for definitions
+of useful semantic editor combinators)
+
+Installation
+============
+
+1.) Get from github:
+    # clone repository
+    $ git clone git://github.com/cumber/sec-th.git
+
+    # or download tarball:
+    wget http://github.com/cumber/sec-th/tarball/master
+
+    # or download zip:
+    wget http://github.com/cumber-th/sec/zipball/master
+
+2.) In sec-directory install using cabal:
+    $ cabal install
